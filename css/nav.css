@@ -1,0 +1,177 @@
+.header {
+    background-color: #D2E4DF;
+    font-family: 'inter';
+      
+    position: fixed;
+    top: 0;
+    bottom: 1;
+    width: 100%;
+}
+  
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+  
+.header li a, .header li a:visited {
+    display: block;
+    padding: 20px 20px;
+    font-size: larger;
+    text-decoration: none;
+    text-align: center;
+    color: #1C322F;
+}
+  
+.header li a:hover, .header .menu-btn:hover {
+    transition: 0.2s;
+    font-size: 22px;
+    background-color: #e7f1ef;
+}
+  
+.header .logo {
+    display: block;
+    float: left;
+    margin-left: 2.5%;
+    font-size: 32px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #1C322F;
+
+}
+
+.header .logo:hover{
+    transition: 0.2s;
+    font-size: 33.5px;
+}
+  
+  /* MENY */
+  
+.header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+  
+  /* MENY IKON */
+  
+.header .menu-icon {
+    cursor: pointer;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+}
+  
+.header .menu-icon .nav-icon {
+    background: #1C322F;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: .2s ease-out;
+    width: 18px;
+}
+  
+.header .menu-icon .nav-icon:before, .header .menu-icon .nav-icon:after {
+    background: #1C322F;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+  
+.header .menu-icon .nav-icon:before {
+    top: 5px;
+}
+  
+.header .menu-icon .nav-icon:after {
+    top: -5px;
+}
+  
+  /* MENY KNAPP */
+  
+.header .menu-btn {
+    display: none;
+}
+  
+.header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+}
+  
+.header .menu-btn:checked ~ .menu-icon .nav-icon {
+    background: transparent;
+}
+  
+.header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+    transform: rotate(-45deg);
+    top:0;
+}
+  
+.header .menu-btn:checked ~ .menu-icon .nav-icon:after {
+    transform: rotate(45deg);
+    top:0;
+}
+  
+@media (min-width: 768px) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+}
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #1C322F;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer a, footer a:visited{
+    font-family: 'inter';
+    color: #D2E4DF;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+footer a:hover{
+    color: #FFFFFF;
+    font-size: 33px;
+}
+
+/* FOOTER responsivitet*/
+@media only screen and (max-width: 600px){
+    footer a{
+        font-family: 'inter';
+        color: #e7f1ef;
+        font-size: 25px;
+        text-align: center;
+        width: 100%;
+    }
+
+    footer a:hover{
+        color: #FFFFFF;
+        font-size: 28px;
+    }
+}
