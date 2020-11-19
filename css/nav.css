@@ -5,7 +5,6 @@
     font-family: 'Raleway', sans-serif;
     position: fixed;
     top: 0;
-
     width: 100%;
 }
   
@@ -24,6 +23,11 @@
     text-decoration: none;
     text-align: center;
     color: #1C322F;
+}
+
+.header li a img{
+    width: 40px;
+    height: 20px;
 }
   
 .header li a:hover, .header .menu-btn:hover {
