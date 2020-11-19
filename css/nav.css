@@ -46,6 +46,9 @@
     color: #1C322F;
 
 }
+.header label span{
+    color: #D2E4DF;
+}
 
 .header .logo:hover{
     transition: 0.2s;
