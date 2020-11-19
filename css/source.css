@@ -11,6 +11,7 @@ body{
 
 .title{
     padding: 10px 0 10px 30px;
+    margin: 50px
 }
 
 .container{
@@ -18,6 +19,7 @@ body{
     flex-wrap: wrap;
     align-items: flex-start;
     height: 100%;
+    padding-top: 63px
 }
 
 .item{
@@ -29,12 +31,12 @@ body{
 }
 
 .item h2{
-    color: #FC9C00;
+    color: #EBF3F2;
     border-bottom: solid  3px;
 }
 .item a{
     text-decoration: none;
-    color: #FC9C00;
+    color: #EBF3F2;
     flex: 100%;
     max-width: 100%;
     width: 100%;
