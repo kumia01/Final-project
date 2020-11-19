@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,500&display=swap');
+
 .header {
     background-color: #D2E4DF;
-    font-family: 'inter';
-      
+    font-family: 'Raleway', sans-serif;
     position: fixed;
     top: 0;
     bottom: 1;
@@ -139,6 +140,7 @@ footer{
     width: 100%;
     height: 300px;
     background-color: #1C322F;
+    position: fixed;
     bottom: 0;
     display: flex;
     justify-content: space-around;
@@ -147,7 +149,7 @@ footer{
 }
 
 footer a, footer a:visited{
-    font-family: 'inter';
+    font-family: 'Raleway', sans-serif;
     color: #D2E4DF;
     font-size: 30px;
     text-align: center;
@@ -163,7 +165,7 @@ footer a:hover{
 /* FOOTER responsivitet*/
 @media only screen and (max-width: 600px){
     footer a{
-        font-family: 'inter';
+        font-family: 'Raleway', sans-serif;
         color: #e7f1ef;
         font-size: 25px;
         text-align: center;
