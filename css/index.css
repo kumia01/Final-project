@@ -5,7 +5,6 @@ b{
 }
 
 .front{
-    width: 100%;
     height: 400px;
     padding-top: 200px;
     background-color: #D2E4DF;
@@ -13,7 +12,6 @@ b{
 
 .txtBox{
     height: 100px;
-    width: 100%;
     margin-left: 200px;
 }
 
@@ -23,7 +21,6 @@ b{
 }
 
 .article{
-    height: 600px;
     background-color:  #EBF3F2;
 }
 
@@ -32,5 +29,21 @@ b{
 }
 
 .article-left, .article-right{
+    display: flex;
     padding-bottom: 70px;
+    padding-top: 70px;
+}
+.article-right{
+    flex-direction: row-reverse;
+}
+.txtbox2{
+    flex: 50%;
+    padding: 50px;
+}
+
+.imgBox{
+    flex: 50%;
+    height: 300px;
+    width: 300px;
+    background-color: white;
 }
