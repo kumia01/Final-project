@@ -1,0 +1,44 @@
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    height: 400px;
+    position: relative;
+    
+}
+
+footer .footer-content{
+    border: 1px solid grey;
+    height: 350px;
+    display: flex;
+    
+}
+
+footer .footer-content .footer-section{
+    flex: 1;
+    padding: 25px;
+    border: 1px solid grey;
+}
+.logo-text{
+    color: thistle;
+}
+.logo-text span{
+    color: red;
+}
+
+
+footer .footer-bottom{
+    background-color: black;
+    color: white;
+    border: 1px solid grey;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 8px;
+}
+
