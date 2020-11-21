@@ -6,7 +6,7 @@
     font-family: 'Raleway', sans-serif;
 }
 body{
-    background-color: #EBF3F2;
+    background-color: #F7FFDD;
 }
 
 .title{
@@ -90,7 +90,7 @@ body{
     }
     .item2{
         max-width: 100%;
-        padding 50px;
+        padding: 50px;
     }
 
     .container{

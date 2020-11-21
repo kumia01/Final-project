@@ -7,7 +7,7 @@ b{
 .front{
     padding: 200px 0;
     display: flex;
-    background-color: #D2E4DF;
+    background-color: #FCFDAF;
 }
 
 .txtBox{
@@ -20,7 +20,7 @@ b{
 }
 
 .article{
-    background-color:  #EBF3F2;
+    background-color:  #EFD780;
 }
 
 .article p, h2{
