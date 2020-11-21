@@ -46,7 +46,7 @@ body{
     list-style: none;
 }
 .item ul{
-    padding: 20 0 20 0;
+    padding: 20px 0 20px 0;
 }
 .item2{
     flex: 100%;
