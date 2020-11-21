@@ -60,7 +60,6 @@ body{
     padding: 10px;
 
 }
-
 .info h2{
     border-bottom: solid 1px;
     padding-bottom: 5px;
@@ -73,15 +72,31 @@ body{
     padding-top: 10px;
 }
 .info img{
-    float: right;
-    height: 100px;
+    height: 80px;
     width: auto;
-    margin: 50px;
+    margin: 10px;
 }
 .info p{
     float: left;
+    padding: 1px;
 }
 
+
+
+.flexBox{
+    display: flex;
+    align-content: stretch;
+
+}
+
+.txtBox{
+    flex: 50%;
+    padding-top: 50px;
+}
+.imgBox{
+    flex: 50%;
+    padding-top: 20px;
+}
 @media (max-width: 768px) {
     .item{
         max-width: 100%;
@@ -103,5 +118,10 @@ body{
 
     .container{
         height: 700px;
+    }
+
+    .txtBox{
+    width: 100%;
+    padding: 10px;
     }
 }
