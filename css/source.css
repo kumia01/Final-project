@@ -52,7 +52,6 @@ body{
     flex: 100%;
     max-width: 70%;
     width: 100%;
-
     padding: 50px;
 
 }
@@ -72,6 +71,15 @@ body{
 }
 .info ul{
     padding-top: 10px;
+}
+.info img{
+    float: right;
+    height: 100px;
+    width: auto;
+    margin: 50px;
+}
+.info p{
+    float: left;
 }
 
 @media (max-width: 768px) {
