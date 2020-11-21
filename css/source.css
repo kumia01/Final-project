@@ -64,7 +64,8 @@ body{
 }
 
 .info h2{
-    border-bottom: solid 3px;
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
 }
 .info li{
     list-style: none;
