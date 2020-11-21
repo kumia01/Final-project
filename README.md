@@ -5,4 +5,4 @@ Student members:
 Bjørge Djuve, Thien Nguyen, Ivanna Ustymenko, Martin Bolle, Eirik Skavdal
 
 Link to the github page:
-https://kumia01.github.io/Final-project/
+https://kumia01.github.io/final-project/
