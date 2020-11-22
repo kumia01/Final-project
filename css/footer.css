@@ -1,5 +1,5 @@
 footer{
-    background-color: black;
+    background-color: rgb(55, 61, 92);
     color: white;
     height: 400px;
     position: relative;
@@ -7,37 +7,97 @@ footer{
 }
 
 footer .footer-content{
-    border: 1px solid grey;
+    
     height: 350px;
     display: flex;
-    
+    color: grey;
 }
 
 footer .footer-content .footer-section{
     flex: 1;
     padding: 25px;
-    border: 1px solid grey;
+    
+    
+   
+}
+footer .footer-content h1,
+footer .footer-content h2{
+    color: white;
 }
 
+footer .footer-content .about h1 span {
+    color: red;
+
+}
+footer .footer-content .contact span {
+    display: block;
+    font-size: 1.1em;
+    margin: 8px;
+    
+    
+}
+
+footer .footer-content .about .social i {
+    
+    width: 45px;
+    height: 41px;
+    padding-top: 8px;
+    
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+    border: 1px solid grey;
+    transition: all .3s;
+
+}
+footer .footer-content .about .social i:hover {
+    
+    color: white;
+    border: 1px solid white;
+    transition: all .3s;
+
+}
+
+footer .footer-content .about .social a i {
+    color: grey;
+}
+
+
+footer .footer-content .links ul a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    transition: 3s;
+    color: grey;
+}
+
+
+footer .footer-content .links ul a li {
+    width: 18ch;
+    
+}
+
+footer .footer-content .links ul a:hover {
+    color: white;
+    margin-left: 15px;
+    transition: 2s;
+}
 .logo-text{
     color: thistle;
 }
 
-.logo-text span{
-    color: red;
-}
-
-
 footer .footer-bottom{
-    background-color: black;
-    color: white;
-    border: 1px solid grey;
-    height: 100px;
+    background-color: rgb(55, 61, 92);
+    color: rgba(128, 128, 128, 0.699);
+  
+    height: 60px;
     width: 100%;
     text-align: center;
     position: absolute;
     bottom: 0px;
     left: 0px;
-    padding-top: 8px;
+    padding-top: 18px;
 }
 
