@@ -25,7 +25,7 @@
     color: #1C322F;
 }
   
-.header li a:hover, .header .menu-btn:hover {
+.header li a:hover, .header .menu-knapp:hover {
     transition: 0.2s;
     font-size: 22px;
     background-color: #FCFDAF;
@@ -46,16 +46,13 @@
     transition: 0.2s;
     font-size: 33.5px;
 }
-  
-  /* MENY */
+
   
 .header .menu {
     clear: both;
     max-height: 0;
     transition: max-height .2s ease-out;
 }
-  
-  /* MENY IKON */
   
 .header .menu-icon {
     cursor: pointer;
@@ -67,8 +64,8 @@
   
 .header .menu-icon .nav-icon {
     background: #1C322F;
-    display: block;
     height: 2px;
+    display: block;
     position: relative;
     width: 18px;
 }
@@ -76,10 +73,10 @@
 .header .menu-icon .nav-icon:before, .header .menu-icon .nav-icon:after {
     background: #1C322F;
     content: '';
-    display: block;
     height: 100%;
+    display: block;
     position: absolute;
-    transition: all .2s ease-out;
+    transition: all 0.2s ease-out;
     width: 100%;
 }
   
@@ -96,26 +93,24 @@
     font-size: 0px;
 }
   
-  /* MENY KNAPP */
-  
-.header .menu-btn {
+.header .menu-knapp {
     display: none;
 }
   
-.header .menu-btn:checked ~ .menu {
+.header .menu-knapp:checked ~ .menu {
     max-height: 240px;
 }
   
-.header .menu-btn:checked ~ .menu-icon .nav-icon {
+.header .menu-knapp:checked ~ .menu-icon .nav-icon {
     background: transparent;
 }
   
-.header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+.header .menu-knapp:checked ~ .menu-icon .nav-icon:before {
     transform: rotate(-45deg);
     top:0;
 }
   
-.header .menu-btn:checked ~ .menu-icon .nav-icon:after {
+.header .menu-knapp:checked ~ .menu-icon .nav-icon:after {
     transform: rotate(45deg);
     top:0;
 }
@@ -132,23 +127,20 @@
     height: 24px;
 }
 
-
-
-  
-@media (min-width: 768px) {
+@media (min-width: 758px) {
     .header li {
       float: left;
     }
     .header li a {
       padding: 20px 30px;
     }
+    .header .menu-icon {
+        display: none;
+      }
     .header .menu {
       clear: none;
       float: right;
       max-height: none;
-    }
-    .header .menu-icon {
-      display: none;
     }
 }
 
