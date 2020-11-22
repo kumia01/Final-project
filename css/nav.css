@@ -25,7 +25,8 @@
     color: #1C322F;
 }
   
-.header li a:hover, .header .menu-btn:hover {
+.header li a:hover, 
+.header .menu-btn:hover {
     transition: 0.2s;
     font-size: 22px;
     background-color: #FCFDAF;
