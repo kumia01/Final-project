@@ -53,6 +53,9 @@ body{
     max-width: 70%;
     width: 100%;
     padding: 50px;
+    -webkit-box-shadow: inset 0px 1px 20px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 1px 20px -7px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 1px 20px -7px rgba(0,0,0,0.75);
 
 }
 .section{
