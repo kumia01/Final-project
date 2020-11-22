@@ -1,6 +1,3 @@
-
-
-
 footer{
     background-color: black;
     color: white;
@@ -21,9 +18,11 @@ footer .footer-content .footer-section{
     padding: 25px;
     border: 1px solid grey;
 }
+
 .logo-text{
     color: thistle;
 }
+
 .logo-text span{
     color: red;
 }
