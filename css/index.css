@@ -5,13 +5,14 @@ b{
 }
 
 .front{
-    padding: 200px 0;
+    margin-top: 50px;
+    padding: 60px;
     display: flex;
     background-color: #FCFDAF;
 }
 
 .txtBox{
-    margin-left: 200px;
+    padding: 100px;
 }
 
 .txtBox p{
