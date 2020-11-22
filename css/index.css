@@ -55,14 +55,18 @@ b{
 }
 
 @media (max-width: 768px){
+    .front{
+    margin-top: 50px;
+    padding: 10px 0;
+    }
 
     .txtBox{
-        height: 100px;
         margin-left: 0;
+        padding: 30px;
     }
 
     .txtBox p{
-    font-size: 40px;
+    font-size: 30px;
     padding-top: 10px;
     }
 
@@ -83,9 +87,8 @@ b{
     }
     .imgBox{
     flex: 100%;
-    max-width: 100%;
+        max-width: 100%;
     }
-
 }
 
 html, body{
