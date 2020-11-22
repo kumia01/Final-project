@@ -51,7 +51,7 @@
 .header .menu {
     clear: both;
     max-height: 0;
-    transition: max-height .2s ease-out;
+    transition: max-height 0.2s ease-out;
 }
   
 .header .menu-icon {
