@@ -16,7 +16,16 @@
 }
 
   
-.header li a, .header li a:visited {
+.header li a{
+    display: block;
+    padding: 20px 20px;
+    font-size: larger;
+    text-decoration: none;
+    text-align: center;
+    color: #1C322F;
+}
+
+.header li a:visited{
     display: block;
     padding: 20px 20px;
     font-size: larger;
@@ -25,7 +34,13 @@
     color: #1C322F;
 }
   
-.header li a:hover, .header .menu-knapp:hover {
+.header li a:hover{
+    transition: 0.2s;
+    font-size: 22px;
+    background-color: #FCFDAF;
+}
+
+.header .menu-knapp:hover{
     transition: 0.2s;
     font-size: 22px;
     background-color: #FCFDAF;
@@ -81,11 +96,11 @@
 }
   
 .header .menu-icon .nav-icon:before {
-    top: 5px;
+    top: 7px;
 }
   
 .header .menu-icon .nav-icon:after {
-    top: -5px;
+    top: -7px;
 }
 
 .header label span{
