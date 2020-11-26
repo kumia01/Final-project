@@ -21,7 +21,7 @@ b{
 }
 
 .article{
-    background-color:  #EFD780;
+    background-color:  #fffae5;
     -webkit-box-shadow: inset 0px 1px 20px -7px rgba(0,0,0,0.75);
     -moz-box-shadow: inset 0px 1px 20px -7px rgba(0,0,0,0.75);
     box-shadow: inset 0px 1px 20px -7px rgba(0,0,0,0.75);
@@ -43,7 +43,7 @@ b{
     text-align: center;
 }
 .article-middle p{
-    padding: 20px 70px;
+    padding: 20px 230px;
 }
 
 .article-middle{
@@ -80,8 +80,8 @@ b{
 
 @media (max-width: 768px){
     .front{
-    margin-top: 50px;
-    padding: 10px 0;
+        margin-top: 50px;
+        padding: 10px 0;
     }
 
     .txtBox{
@@ -90,29 +90,36 @@ b{
     }
 
     .txtBox p{
-    font-size: 30px;
-    padding-top: 10px;
+        font-size: 30px;
+        padding-top: 10px;
     }
 
     .txtbox2{
-    flex: 100%;
-    max-width: 100%;
-    padding: 10px;
+        flex: 100%;
+        max-width: 100%;
+        padding: 10px;
     }
     .txtbox2 p{
         padding: 20px;
     }
     .article p{
-    font-size: 20px;
+        font-size: 20px;
+    }
+    .article-middle p{
+        padding: 20px;
     }
     .article h2{
         text-align: center;
         font-size: 42px;
     }
     .imgBox{
-    flex: 100%;
+        flex: 100%;
         max-width: 100%;
     }
+    .imgBox-middle{
+        max-width: 100%;
+    }
+
 }
 
 html, body{
