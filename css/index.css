@@ -30,7 +30,30 @@ b{
 .article p, h2{
     font-size: 1.7vw;
 }
+.txtbox2-middle{
+    flex: 100%;
+}
+.imgBox-middle{
+    flex: 100%;
+    height: 300px;
+    max-width: 40%;
+    background-color: white;
+}
+.article-middle h2{
+    text-align: center;
+}
+.article-middle p{
+    padding: 20px 70px;
+}
 
+.article-middle{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
 .article-left, .article-right{
     display: flex;
     flex-wrap: wrap;
