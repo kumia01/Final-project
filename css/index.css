@@ -6,7 +6,7 @@ b{
 
 .front{
     margin-top: 50px;
-    padding: 60px;
+    padding: 100px 0 100px 50px;
     display: flex;
     background-color: #FCFDAF;
 }
@@ -21,6 +21,7 @@ b{
 }
 
 .article{
+    padding: 200px 40px 0px;
     background-color:  #fffae5;
     -webkit-box-shadow: inset 0px 1px 20px -7px rgba(0,0,0,0.75);
     -moz-box-shadow: inset 0px 1px 20px -7px rgba(0,0,0,0.75);
@@ -56,6 +57,7 @@ b{
 }
 .article-left, .article-right{
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     align-content: stretch;
     padding-bottom: 70px;
