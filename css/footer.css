@@ -6,7 +6,7 @@ footer{
 
 footer .footer-content{
     display: flex;
-    color: grey;
+    color: white;
     flex-wrap: wrap;
     margin-bottom: px;
     
@@ -58,7 +58,7 @@ footer .footer-content .about .social i {
     display: inline-block;
     font-size: 1.3em;
     border-radius: 5px;
-    border: 1px solid grey;
+    border: 1px solid white;
     transition: .3s;
 
 }
@@ -71,7 +71,7 @@ footer .footer-content .about .social i:hover {
 }
 
 footer .footer-content .about .social a i {
-    color: grey;
+    color: white;
 }
 
 
@@ -80,7 +80,7 @@ footer .footer-content .links ul a {
     margin-bottom: 10px;
     font-size: 1.2em;
     transition: 0.3s;
-    color: grey;
+    color: white;
     list-style: disc;
     
 }
@@ -102,7 +102,7 @@ footer .footer-content .links ul a:hover {
 
 footer .footer-bottom{
     background-color: rgb(55, 61, 92);
-    color: rgba(128, 128, 128, 0.699);
+    color: white;
     height: 80px;
     width: 100%;
     text-align: center;
