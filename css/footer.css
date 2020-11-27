@@ -79,7 +79,7 @@ footer .footer-content .links ul a {
     display: block;
     margin-bottom: 10px;
     font-size: 1.2em;
-    transition: 3s;
+    transition: 0.3s;
     color: grey;
     list-style: disc;
     
