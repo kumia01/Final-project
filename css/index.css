@@ -5,14 +5,31 @@ b{
 }
 
 .front{
-    margin-top: 50px;
-    padding: 100px 0 125px 50px;
+    height: 48vw;
     display: flex;
+    flex-wrap: wrap;
     background-color: #FCFDAF;
 }
-
+.image{
+    flex: 50%;
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.image img{
+    width: 50vw;
+    height: auto;
+}
 .txtBox{
-    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex: 50%;
+    max-width: 45%;
+    padding: 50px;
 }
 
 .txtBox p{
@@ -98,13 +115,24 @@ b{
         text-align: center;
     }
     .front{
+        height: 100%;
         margin-top: 50px;
         padding: 10px 0;
     }
+    .image{
+        flex: 100%;
+        max-width: 100%;
+    }
+    .image img{
+        width: 90vw;
+    }
+
     .article{
         padding:0;
     }
     .txtBox{
+        flex: 100%;
+        max-width: 100%;
         margin-left: 0;
         padding: 30px;
     }
