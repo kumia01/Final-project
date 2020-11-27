@@ -139,6 +139,9 @@ b{
     .imgBox-middle{
         max-width: 100%;
     }
+    .img1{
+        height: 400px;
+    }
     .img2{
         height: 200px;
     }
