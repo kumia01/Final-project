@@ -6,7 +6,7 @@ b{
 
 .front{
     margin-top: 50px;
-    padding: 100px 0 100px 50px;
+    padding: 100px 0 125px 50px;
     display: flex;
     background-color: #FCFDAF;
 }
@@ -86,10 +86,10 @@ b{
     box-shadow: 10px 10px 5px grey;
 }
 .img1{
-    height: 400px;
+    height: 25vw;
 }
 .img2{
-    height: 400px;
+    height: 25vw;
 }
 
 @media (max-width: 1000px){
