@@ -62,10 +62,10 @@ footer .footer-content .about .social i {
     transition: .3s;
 
 }
+
 footer .footer-content .about .social i:hover {
-    
-    color: white;
-    border: 1px solid white;
+    color: black;
+    border: 1px solid black;
     transition: .3s;
 
 }
@@ -85,15 +85,13 @@ footer .footer-content .links ul a {
     
 }
 
-
 footer .footer-content .links ul a li {
     width: 18ch;
     
 }
 
 footer .footer-content .links ul a:hover {
-    color: white;
-    
+    color: black;
     transition: all 1s;
 }
 .logo-text{
