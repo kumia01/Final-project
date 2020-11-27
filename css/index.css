@@ -54,6 +54,7 @@ b{
 }
 .txtbox2-middle{
     flex: 100%;
+    padding: 10px;
 }
 .imgBox-middle{
     flex: 100%;
@@ -155,16 +156,16 @@ b{
     .txtbox2{
         flex: 100%;
         max-width: 100%;
-        padding: 10px;
+        padding: 20px;
     }
     .txtbox2 p{
-        padding: 10px;
+        padding: 20px;
     }
     .article p{
         font-size: 20px;
     }
     .article-middle p{
-        padding: 10px;
+        padding: 20px;
     }
     .article h2{
         text-align: center;
