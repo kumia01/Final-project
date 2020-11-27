@@ -41,7 +41,7 @@ footer .footer-content .contact span {
     font-size: 0.8em;
     }
 }
-@media (max-width: 560px){
+@media (max-width: 548.66px){
     footer .footer-content .contact span  {
         font-size: 1.1em;
         }
@@ -74,9 +74,6 @@ footer .footer-content .about .social a i {
     color: grey;
 }
 
-footer .footer-content .links ul{
-    
-}
 
 footer .footer-content .links ul a {
     display: block;
