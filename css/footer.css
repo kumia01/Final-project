@@ -19,9 +19,10 @@ footer .footer-content .footer-section{
     
    
 }
-footer .footer-content h1,
+
 footer .footer-content h2{
     color: white;
+    font-size: 1.3em;
 }
 
 footer .footer-content .about h1 span {
@@ -34,6 +35,16 @@ footer .footer-content .contact span {
     margin: 8px;
     
     
+}
+@media (max-width: 840px){
+    footer .footer-content .contact span  {
+    font-size: 0.8em;
+    }
+}
+@media (max-width: 560px){
+    footer .footer-content .contact span  {
+        font-size: 1.1em;
+        }
 }
 
 footer .footer-content .about .social i {
@@ -48,14 +59,14 @@ footer .footer-content .about .social i {
     font-size: 1.3em;
     border-radius: 5px;
     border: 1px solid grey;
-    transition: all .3s;
+    transition: .3s;
 
 }
 footer .footer-content .about .social i:hover {
     
     color: white;
     border: 1px solid white;
-    transition: all .3s;
+    transition: .3s;
 
 }
 
@@ -63,6 +74,9 @@ footer .footer-content .about .social a i {
     color: grey;
 }
 
+footer .footer-content .links ul{
+    
+}
 
 footer .footer-content .links ul a {
     display: block;
@@ -70,6 +84,8 @@ footer .footer-content .links ul a {
     font-size: 1.2em;
     transition: 3s;
     color: grey;
+    list-style: disc;
+    
 }
 
 
@@ -80,8 +96,8 @@ footer .footer-content .links ul a li {
 
 footer .footer-content .links ul a:hover {
     color: white;
-    margin-left: 15px;
-    transition: 2s;
+    
+    transition: all 1s;
 }
 .logo-text{
     color: thistle;
@@ -90,13 +106,9 @@ footer .footer-content .links ul a:hover {
 footer .footer-bottom{
     background-color: rgb(55, 61, 92);
     color: rgba(128, 128, 128, 0.699);
-  
-    height: 60px;
+    height: 80px;
     width: 100%;
     text-align: center;
-    
-    bottom: 0px;
-    left: 0px;
     padding-top: 25px;
 }
 
