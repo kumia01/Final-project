@@ -7,6 +7,7 @@
 }
 body{
     background-color: #F7FFDD;
+    width: 100%;
 }
 
 .title{
@@ -96,6 +97,12 @@ body{
     flex: 50%;
     padding-top: 50px;
 }
+
+.txtBox p{
+    margin-bottom: 5%;
+
+}
+
 .imgBox{
     flex: 50%;
     padding-top: 20px;
@@ -127,4 +134,14 @@ body{
     width: 100%;
     padding: 10px;
     }
+
+
+    
+
+
+    .page-wrapper{
+        padding-bottom: 100%;
+    }
+    
 }
+
