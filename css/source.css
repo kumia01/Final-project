@@ -20,7 +20,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
-    padding-top: 62px;
+    padding-top: 64px;
 }
 
 .item{
@@ -95,15 +95,11 @@ body{
 
 .txtBox{
     flex: 50%;
-    display: flex;
-    flex-wrap: wrap;
     padding-top: 50px;
 }
 
 .txtBox p{
     margin-bottom: 5%;
-    flex: 100%;
-    max-width: 100%;
 
 }
 
@@ -133,6 +129,9 @@ body{
     
 }
 @media (max-width: 768px) {
+    .container{
+        padding-top: 58px;
+    }
     .item{
         max-width: 100%;
         display: flex;
