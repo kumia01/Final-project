@@ -95,11 +95,15 @@ body{
 
 .txtBox{
     flex: 50%;
+    display: flex;
+    flex-wrap: wrap;
     padding-top: 50px;
 }
 
 .txtBox p{
     margin-bottom: 5%;
+    flex: 100%;
+    max-width: 100%;
 
 }
 
