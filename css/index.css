@@ -208,8 +208,8 @@ b{
     .img3{
          padding: 20px;
         flex: 100%;
-        height: auto;
-        max-width: 100%;
+        width: auto;
+        height: 240px;
     }
 }
 
@@ -224,6 +224,9 @@ b{
     }
     .article p{
         font-size: 18px;
+    }
+    .img3{
+        height: 140px;
     }
 }
 
