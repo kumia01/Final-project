@@ -59,6 +59,18 @@
 
 }
 
+#logo{
+    width: 50px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 3px;
+}
+
+#logo:hover{
+    width: 55px;
+    transition: 0.2s;
+}
+
 .header .logo:hover{
     transition: 0.2s;
     font-size: 31.5px;
