@@ -33,6 +33,7 @@ b{
 }
 
 .txtBox p{
+    padding-left: 70px;
     font-size: 3vw;
     padding-top: 10px;
 }
@@ -151,6 +152,7 @@ b{
     .txtBox p{
         font-size: 30px;
         padding-top: 10px;
+        padding-left: 0;
     }
 
     .txtbox2{
