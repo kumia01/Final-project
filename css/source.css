@@ -107,6 +107,27 @@ body{
     flex: 50%;
     padding-top: 20px;
 }
+
+#imgBoxIcons{
+    background-color: rgb(55, 61, 92);;
+    margin-top: 15px;
+    margin-right: 10px;
+    box-shadow:  0px 1px 20px -7px rgba(0,0,0,0.75);
+    padding-left: 14px;
+}
+.imgBox i{
+    width: 45px;
+    height: 45px;
+    
+    
+    text-align: center;
+    
+    font-size: 1.3em;
+    transition: .3s;
+    color: white;
+    filter: opacity(70%);
+    
+}
 @media (max-width: 768px) {
     .item{
         max-width: 100%;
