@@ -50,7 +50,7 @@ b{
     align-content: center;
 }
 
-.article p, h2{
+.article p{
     font-size: 1.7vw;
 }
 .txtbox2-middle{
@@ -197,6 +197,9 @@ b{
     .img2{
         height: 150px;
         width: 200px;
+    }
+    .article p{
+        font-size: 18px;
     }
 }
 
