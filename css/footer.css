@@ -1,14 +1,15 @@
 footer{
     background-color: rgb(55, 61, 92);
     color: white;
-    
 }
+
+
 
 footer .footer-content{
     display: flex;
     color: white;
     flex-wrap: wrap;
-    margin-bottom: px;
+    margin-bottom: 10px;
     
 }
 
