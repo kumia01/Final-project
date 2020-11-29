@@ -156,7 +156,7 @@
     height: 24px;
 }
 
-@media (min-width: 758px) {
+@media (min-width: 782px) {
     .header li {
       float: left;
     }
@@ -170,6 +170,12 @@
       clear: none;
       float: right;
       max-height: none;
+    }
+}
+
+@media (max-width: 310px){
+    #logo{
+        display:none;
     }
 }
 
