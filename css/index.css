@@ -117,6 +117,9 @@ b{
     width: auto;
     box-shadow: 10px 10px 20px grey;
 }
+.imgBox img4{
+    flex
+}
 .img1{
     height: 25vw;
 }
@@ -126,17 +129,8 @@ b{
 .img3{
     padding-top: 60px;
     padding-bottom: 60px;
-    flex: 100%;
     height: auto;
-    width: 60%;
-}
-
-.img4{
-    padding-top: 60px;
-    padding-bottom: 60px;
-    flex: 100%;
-    height: auto;
-    width: 60%;
+    width: 90%;
 }
 
 @media (max-width: 1000px){
@@ -199,16 +193,11 @@ b{
     .imgBox-middle{
         max-width: 100%;
     }
+
     .img1{
         height: 240px;
     }
     .img2{
-        height: 240px;
-    }
-    .img3{
-         padding: 20px;
-        flex: 100%;
-        width: auto;
         height: 240px;
     }
 }
