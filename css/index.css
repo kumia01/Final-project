@@ -205,7 +205,12 @@ b{
     .img2{
         height: 240px;
     }
-
+    .img3{
+         padding: 20px;
+        flex: 100%;
+        height: auto;
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 300px){
