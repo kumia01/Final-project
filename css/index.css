@@ -129,8 +129,8 @@ b{
 .img3{
     padding-top: 60px;
     padding-bottom: 60px;
-    height: auto;
-    width: 90%;
+    width: auto;
+    height: 86vw;
 }
 
 @media (max-width: 1000px){
