@@ -13,12 +13,16 @@ footer .footer-content{
     
 }
 
-footer .footer-content .footer-section{
+footer .footer-content .footer-section {
     flex: 1;
-    padding: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
     
-    
-   
+}
+
+.about{
+    padding-right: 20px;    
 }
 
 footer .footer-content h2{
