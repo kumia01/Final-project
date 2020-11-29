@@ -197,6 +197,9 @@ b{
     .img2{
         height: 240px;
     }
+    .img3{
+        height: 320px;
+    }
 }
 
 @media (max-width: 300px){
