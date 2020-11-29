@@ -50,7 +50,7 @@
     display: block;
     float: left;
     margin-left: 2.5%;
-    font-size: 32px;
+    font-size: 28px;
     padding: 10px 20px;
     text-decoration: none;
     color: #1C322F;
@@ -59,7 +59,7 @@
 
 .header .logo:hover{
     transition: 0.2s;
-    font-size: 33.5px;
+    font-size: 31.5px;
 }
 
   

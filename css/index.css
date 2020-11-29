@@ -187,6 +187,15 @@ b{
 
 }
 
+@media (max-width: 300px){
+     .img1{
+        height: 200px;
+    }
+    .img2{
+        height: 200px;
+    }
+}
+
 html, body{
     height: 100%;
     padding: 0px;
