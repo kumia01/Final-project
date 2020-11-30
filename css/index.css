@@ -209,11 +209,28 @@ b{
     }
 
     .img1{
+    height: 50vw;
+    }
+
+    .img2{
+    height: 50vw;
+    }
+
+    .img3{
+        height: 100%;
+        width: 70vw;
+    }
+}
+@media (max-width: 380px){
+
+     .img1{
         height: 240px;
     }
+
     .img2{
        height: 240px;
     }
+
     .img3{
         height: 100%;
         width: 330px;
@@ -227,6 +244,10 @@ b{
     }
     .img2{
         height: 150px;
+        width: 200px;
+    }
+
+    .img3{
         width: 200px;
     }
     .article p{
