@@ -179,4 +179,10 @@
         padding: 14px 20px;
     }
 }
+@media (max-width: 310px){
+    .header .logo{
+        display: none;
+    }
+}
+
 
