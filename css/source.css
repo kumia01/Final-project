@@ -32,12 +32,13 @@ body{
 }
 
 .item h2{
-    color: #EBF3F2;
+    color: black;
     border-bottom: solid  3px;
 }
 .item a{
+    font-weight: bold;
     text-decoration: none;
-    color: #EBF3F2;
+    color: black;
     flex: 100%;
     max-width: 100%;
     width: 100%;
