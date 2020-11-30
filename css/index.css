@@ -68,11 +68,9 @@ b{
     align-content: center;
     justify-content: center;
 }
-.imgBox-middle h1{
-    font-size: 4vw
-}
-.article-middle h2{
+.article-middle h1{
     text-align: center;
+    font-size: 4vw;
 }
 .article-middle p{
     padding: 20px 230px;
