@@ -100,6 +100,11 @@ footer .footer-bottom{
     padding-top: 25px;
 }
 
+#call, #mail{
+    text-decoration: none;
+    color: white;
+}
+
 @media (max-width: 275px){
 
     footer .footer-content .links ul a{
