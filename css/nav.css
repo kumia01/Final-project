@@ -175,7 +175,8 @@
 
 @media (max-width: 363px){
     .header .logo{
-        display:none;
+        font-size: 25px;
+        padding: 14px 20px;
     }
 }
 
