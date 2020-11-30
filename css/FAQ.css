@@ -20,13 +20,14 @@
     margin-bottom: 200px;
 }
 
-#aboutUSfooterFix{
-    height: 100%;
-    margin-bottom: 100px;
-}
 
-@media (max-width: 1148px){
+
+@media (min-width: 1920px){
+
+
     #aboutUSfooterFix{
-    height: auto;
+        height: 100%
     }
 }
+
+
