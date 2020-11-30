@@ -212,7 +212,7 @@ b{
     }
 }
 
-@media (max-width: 300px){
+@media (max-width: 360px){
     .img1{
         height: 150px;
         width: 200px
