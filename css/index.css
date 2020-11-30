@@ -31,6 +31,10 @@ b{
     max-width: 45%;
     padding: 50px;
 }
+.txtBox a {
+    text-decoration: none;
+    color: #FC9C00;
+}
 
 .txtBox p{
     padding-left: 70px;
@@ -39,7 +43,7 @@ b{
 }
 
 .article{
-    padding: 200px 40px 0px;
+    padding: 100px 40px 0px;
     background-color:  #fffae5;
     -webkit-box-shadow: inset 0px 1px 20px -7px rgba(0,0,0,0.75);
     -moz-box-shadow: inset 0px 1px 20px -7px rgba(0,0,0,0.75);
@@ -64,11 +68,13 @@ b{
     align-content: center;
     justify-content: center;
 }
-.imgBox-middle h1{
-    font-size: 4vw
+.article-middle h1{
+    text-align: center;
+    font-size: 4vw;
 }
 .article-middle h2{
     text-align: center;
+    font-size: 2vw;
 }
 .article-middle p{
     padding: 20px 230px;
@@ -117,6 +123,14 @@ b{
     width: auto;
     box-shadow: 10px 10px 20px grey;
 }
+.imgBox-middle{
+    flex: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
 .img1{
     height: 25vw;
 }
@@ -126,17 +140,8 @@ b{
 .img3{
     padding-top: 60px;
     padding-bottom: 60px;
-    flex: 100%;
+    width: 80vw;
     height: auto;
-    width: 60%;
-}
-
-.img4{
-    padding-top: 60px;
-    padding-bottom: 60px;
-    flex: 100%;
-    height: auto;
-    width: 60%;
 }
 
 @media (max-width: 1000px){
@@ -158,9 +163,6 @@ b{
         width: 90vw;
     }
 
-    .article{
-        padding:0;
-    }
     .txtBox{
         flex: 100%;
         max-width: 100%;
@@ -199,16 +201,21 @@ b{
     .imgBox-middle{
         max-width: 100%;
     }
+
     .img1{
         height: 240px;
     }
     .img2{
         height: 240px;
     }
-
+    .img3{
+        padding: 20px;
+        height: 100%;
+        width: 90vw;
+    }
 }
 
-@media (max-width: 300px){
+@media (max-width: 360px){/*<--was300px*/
     .img1{
         height: 150px;
         width: 200px
@@ -220,6 +227,10 @@ b{
     .article p{
         font-size: 18px;
     }
+
+    /*.img3{
+        height: 140px;
+    }*/
 }
 
 html, body{
