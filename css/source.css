@@ -18,6 +18,8 @@ body{
 
 .container{
     display: flex;
+    display: -webkit-flex;
+    display: -webkit-box;
     flex-wrap: wrap;
     align-items: stretch;
     padding-top: 64px;
@@ -92,6 +94,8 @@ body{
 
 .flexBox{
     display: flex;
+    display: -webkit-flex;
+    display: -webkit-box;
     align-content: stretch;
 }
 
@@ -140,6 +144,8 @@ body{
     .item{
         max-width: 100%;
         display: flex;
+        display: -webkit-flex;
+        display: -webkit-box;
         flex-wrap: wrap;
         justify-content: center;
         align-items: stretch;

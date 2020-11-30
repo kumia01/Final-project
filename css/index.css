@@ -7,6 +7,8 @@ b{
 .front{
     height: 48vw;
     display: flex;
+    display: -webkit-flex;
+    display: -webkit-box;
     flex-wrap: wrap;
     background-color: #FCFDAF;
 }
@@ -14,6 +16,7 @@ b{
     flex: 50%;
     max-width: 50%;
     display: flex;
+    display: -webkit-flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
@@ -24,6 +27,8 @@ b{
 }
 .txtBox{
     display: flex;
+    display: -webkit-flex;
+    display: -webkit-box;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
@@ -49,6 +54,8 @@ b{
     -moz-box-shadow: inset 0px 1px 20px -7px rgba(0,0,0,0.75);
     box-shadow: inset 0px 1px 20px -7px rgba(0,0,0,0.75);
     display: flex;
+    display: -webkit-flex;
+     display: -webkit-box;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
@@ -64,6 +71,8 @@ b{
 .imgBox-middle{
     flex: 100%;
     display: flex;
+    display: -webkit-flex;
+     display: -webkit-box;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
@@ -84,6 +93,8 @@ b{
     flex: 100%;
     max-width: 100%;
     display: flex;
+    display: -webkit-flex;
+     display: -webkit-box;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
@@ -94,6 +105,8 @@ b{
     flex: 100%;
     max-width: 100%;
     display: flex;
+    display: -webkit-flex;
+     display: -webkit-box;
     align-items: center;
     flex-wrap: wrap;
     align-content: stretch;
@@ -115,6 +128,8 @@ b{
     max-width: 50%;
     padding: 50px;
     display: flex;
+    display: -webkit-flex;
+    display: -webkit-box;
     justify-content: center;
 }
 
@@ -127,6 +142,8 @@ b{
     flex: 100%;
     max-width: 100%;
     display: flex;
+    display: -webkit-flex;
+    display: -webkit-box;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
