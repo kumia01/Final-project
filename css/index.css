@@ -160,7 +160,6 @@ b{
         max-width: 100%;
     }
     .image img{
-        height: 100%;
         width: 90vw;
     }
 
@@ -220,7 +219,6 @@ b{
        height: 240px;
     }
     .img3{
-        height: 100%;
         width: 90vw;
     }
 }
