@@ -155,7 +155,7 @@
     height: 24px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 810px) {
     .header{
         padding-bottom: 0px;
     }
