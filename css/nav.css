@@ -52,7 +52,7 @@
     display: block;
     float: left;
     margin-left: 2.5%;
-    font-size: 28px;
+    font-size: 32.5px;
     padding: 10px 20px;
     text-decoration: none;
     color: #1C322F;
@@ -63,7 +63,7 @@
     width: 50px;
     float: left;
     margin-left: 2%;
-    margin-top: 3px;
+    margin: 4px 0px 4px 2%;
 }
 
 #logo:hover{
@@ -73,7 +73,7 @@
 
 .header .logo:hover{
     transition: 0.2s;
-    font-size: 31.5px;
+    font-size: 37.5px;
 }
 
   
@@ -173,8 +173,8 @@
     }
 }
 
-@media (max-width: 310px){
-    #logo{
+@media (max-width: 363px){
+    .header .logo{
         display:none;
     }
 }
