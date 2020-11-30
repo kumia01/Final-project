@@ -79,7 +79,7 @@ footer .footer-content .links ul a {
 }
 
 footer .footer-content .links ul a li {
-    width: 18ch; 
+    width: 18ch;
     
 }
 
@@ -101,11 +101,11 @@ footer .footer-bottom{
 }
 
 @media (max-width: 275px){
-    
+
     footer .footer-content .links ul a{
         font-size: 1em;
     }
-    
-    
+
+
 }
 
