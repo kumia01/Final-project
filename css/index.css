@@ -179,16 +179,19 @@ b{
     .txtbox2{
         flex: 100%;
         max-width: 100%;
-        padding: 20px;
+        padding: 0px;
     }
     .txtbox2 p{
-        padding: 20px;
+        padding: 0px;
+    }
+    .article{
+        padding: 10px;
     }
     .article p{
         font-size: 20px;
     }
     .article-middle p{
-        padding: 20px;
+        padding: 0px;
     }
     .article-middle h1{
         font-size: 32px;
@@ -216,12 +219,11 @@ b{
     }
     .img3{
         padding: 20px;
-        height: 100%;
         width: 90vw;
     }
 }
 
-@media (max-width: 360px){/*<--was300px*/
+@media (max-width: 360px){
     .img1{
         height: 150px;
         width: 200px
@@ -234,9 +236,6 @@ b{
         font-size: 18px;
     }
 
-    /*.img3{
-        height: 140px;
-    }*/
 }
 
 html, body{
