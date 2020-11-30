@@ -45,10 +45,13 @@ body{
 }
 .item li{
     list-style: none;
+    padding: 2.5px 0px;
 }
 .item ul{
-    padding: 20px 0 20px 0;
+    padding: 10px 0 20px 0;
+
 }
+
 .item2{
     flex: 100%;
     max-width: 70%;

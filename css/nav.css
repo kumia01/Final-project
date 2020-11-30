@@ -7,7 +7,7 @@
     top: 0;
     width: 100%;
     z-index: 1;
-    
+    padding-bottom: 5px;
 }
   
 .header ul {
@@ -51,8 +51,8 @@
 .header .logo {
     display: block;
     float: left;
-    margin-left: 2.5%;
-    font-size: 28px;
+    margin-top: 4px;
+    font-size: 32.5px;
     padding: 10px 20px;
     text-decoration: none;
     color: #1C322F;
@@ -62,8 +62,7 @@
 #logo{
     width: 50px;
     float: left;
-    margin-left: 2%;
-    margin-top: 3px;
+    margin: 7px 0px 0px 2%;
 }
 
 #logo:hover{
@@ -73,7 +72,7 @@
 
 .header .logo:hover{
     transition: 0.2s;
-    font-size: 31.5px;
+    color: black;
 }
 
   
@@ -157,6 +156,9 @@
 }
 
 @media (min-width: 800px) {
+    .header{
+        padding-bottom: 0px;
+    }
     .header li {
       float: left;
     }
@@ -173,9 +175,18 @@
     }
 }
 
-@media (max-width: 310px){
-    #logo{
-        display:none;
+@media (max-width: 363px){
+    .header .logo{
+        font-size: 25px;
+        padding: 14px 20px;
+        padding-left: 35px;
     }
 }
+
+@media (max-width: 312px){
+    .header .logo{
+        display: none;
+    }
+}
+
 

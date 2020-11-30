@@ -57,6 +57,7 @@ footer .footer-content .about .social img {
 
 }
 
+
 footer .footer-content .about .social img:hover {
     
     transition: .3s;
@@ -78,7 +79,7 @@ footer .footer-content .links ul a {
 }
 
 footer .footer-content .links ul a li {
-    width: 18ch;
+    width: 18ch; 
     
 }
 
@@ -97,5 +98,14 @@ footer .footer-bottom{
     width: 100%;
     text-align: center;
     padding-top: 25px;
+}
+
+@media (max-width: 275px){
+    
+    footer .footer-content .links ul a{
+        font-size: 1em;
+    }
+    
+    
 }
 
