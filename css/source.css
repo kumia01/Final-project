@@ -147,6 +147,8 @@ body{
         display: -webkit-flex;
         display: -webkit-box;
         flex-wrap: wrap;
+        -webkit- justify-content: center;
+        -webkit- align-items: center;
         justify-content: center;
         align-items: stretch;
         padding: 50px;
@@ -163,6 +165,8 @@ body{
     .flexBox{
         justify-content: center;
         align-content: center;
+        -webkit- justify-content: center;
+        -webkit- align-items: center;
         flex-wrap: wrap;
     }
 
