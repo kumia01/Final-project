@@ -139,6 +139,7 @@ b{
     height: 25vw;
 }
 .img3{
+    height: 60vw;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -217,7 +218,7 @@ b{
        height: 240px;
     }
     .img3{
-        height: 240px;
+        height: 80vw;
     }
 }
 
