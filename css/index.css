@@ -150,9 +150,6 @@ b{
         width: 90vw;
     }
 
-    .article{
-        padding:0;
-    }
     .txtBox{
         flex: 100%;
         max-width: 100%;
