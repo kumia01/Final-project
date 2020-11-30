@@ -32,20 +32,22 @@ body{
 }
 
 .item h2{
-    color: #EBF3F2;
+    color: black;
     border-bottom: solid  3px;
 }
 .item a{
+    font-weight: bold;
     text-decoration: none;
-    color: #EBF3F2;
+    color: black;
     flex: 100%;
     max-width: 100%;
     width: 100%;
 
 }
+
 .item li{
     list-style: none;
-    padding: 2.5px 0px;
+    padding: 7.5px 0px;
 }
 .item ul{
     padding: 10px 0 20px 0;

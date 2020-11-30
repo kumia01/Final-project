@@ -53,7 +53,7 @@ footer .footer-content .about .social img {
     display: inline-block;
     font-size: 1.3em;
     transition: .3s;
-    filter: opacity(70%);
+    filter: opacity(100%);
 
 }
 
@@ -62,7 +62,7 @@ footer .footer-content .about .social img:hover {
     
     transition: .3s;
     
-    filter: opacity(100%);
+    filter: opacity(70%);
     
 }
 
@@ -75,7 +75,7 @@ footer .footer-content .links ul a {
     transition: 0.3s;
     color: white;
     list-style: disc;
-    filter: opacity(70%);
+    filter: opacity(100%);
 }
 
 footer .footer-content .links ul a li {
@@ -84,7 +84,7 @@ footer .footer-content .links ul a li {
 }
 
 footer .footer-content .links ul a:hover {
-    filter: opacity(100%);
+    filter: opacity(70%);
     transition: all 0.3s;
 }
 .logo-text{
