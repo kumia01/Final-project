@@ -125,7 +125,6 @@ b{
 }
 .imgBox-middle{
     flex: 100%;
-    max-width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -216,8 +215,8 @@ b{
        height: 240px;
     }
     .img3{
-        height: auto;
-        width: 240px;
+        height: 100%;
+        width: 330px;
     }
 }
 
