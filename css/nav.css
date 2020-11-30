@@ -183,7 +183,7 @@
     }
 }
 
-@media (max-width: 312px){
+@media (max-width: 321px){
     .header .logo{
         display: none;
     }
