@@ -207,7 +207,6 @@ b{
     }
     .imgBox-middle{
         flex: 100%;
-        max-width: 100%;
     }
 
     .img1{
@@ -217,8 +216,8 @@ b{
        height: 240px;
     }
     .img3{
-        height: 300px;
-        width: auto;
+        height: auto;
+        width: 240px;
     }
 }
 
