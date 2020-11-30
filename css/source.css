@@ -93,7 +93,6 @@ body{
 .flexBox{
     display: flex;
     align-content: stretch;
-
 }
 
 .txtBox{
@@ -155,11 +154,25 @@ body{
         max-width: 100%;
         padding: 50px;
     }
+    .flexBox{
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
 
     .txtBox{
         width: 100%;
         padding: 10px;
     }
+    .imgBox{
+        flex: 100%;
+        max-width: 100%;
+    }
+    .txtBox{
+        flex: 100%;
+        max-width: 100%;
+    }
+
 
 }
 
