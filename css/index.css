@@ -123,13 +123,12 @@ b{
     width: auto;
     box-shadow: 10px 10px 20px grey;
 }
+
 .imgBox-middle{
     flex: 100%;
     max-width: 100%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
 }
 .img1{
     height: 25vw;
@@ -207,7 +206,6 @@ b{
     }
     .imgBox-middle{
         flex: 100%;
-        max-width: 100%;
     }
 
     .img1{
@@ -217,8 +215,8 @@ b{
        height: 240px;
     }
     .img3{
-        height: 80vw;
-        width: auto;
+        height: 100%;
+        width: 330px;
     }
 }
 
