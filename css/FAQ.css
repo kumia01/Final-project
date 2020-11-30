@@ -17,5 +17,15 @@
 }
 
 .lastQuestion{
-    margin-bottom: 100px;
+    margin-bottom: 200px;
+}
+
+#aboutUSfooterFix{
+    height: 100%;
+}
+
+@media (max-width: 1148px){
+    #aboutUSfooterFix{
+    height: auto;
+    }
 }

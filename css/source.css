@@ -43,9 +43,10 @@ body{
     width: 100%;
 
 }
+
 .item li{
     list-style: none;
-    padding: 2.5px 0px;
+    padding: 7.5px 0px;
 }
 .item ul{
     padding: 10px 0 20px 0;
