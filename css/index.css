@@ -209,6 +209,7 @@ b{
         max-width: 100%;
     }
     .imgBox-middle{
+        flex: 100%;
         max-width: 100%;
     }
 
@@ -216,10 +217,10 @@ b{
         height: 240px;
     }
     .img2{
-        height: 240px;
+       height: 240px;
     }
     .img3{
-        padding: 20px;
+        height: 100%;
         width: 90vw;
     }
 }
