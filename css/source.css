@@ -36,6 +36,7 @@ body{
     border-bottom: solid  3px;
 }
 .item a{
+    font-weight: bold;
     text-decoration: none;
     color: black;
     flex: 100%;
