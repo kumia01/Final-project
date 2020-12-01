@@ -28,6 +28,17 @@
     }
 }
 
+@media (min-height: 1366px){
+    .faqContent{
+        height: 1300px;
+    }
+}
 
+
+@media (min-height: 1919px){
+    .faqContent{
+        height: 1800px;
+    }
+}
 
 

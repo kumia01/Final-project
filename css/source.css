@@ -185,3 +185,15 @@ body{
     }
     
 }
+
+@media (min-height: 1365px){
+    .container{
+        height: 1300px;
+    }
+}
+
+@media (min-height: 1919px){
+    .container{
+        height: 1800px;
+    }
+}
