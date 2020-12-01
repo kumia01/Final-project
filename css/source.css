@@ -76,6 +76,7 @@ body{
 .info li{
     list-style: none;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 .info ul{
     padding-top: 10px;
