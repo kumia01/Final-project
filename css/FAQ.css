@@ -22,12 +22,12 @@
 
 
 
-@media (min-width: 1920px){
-
-
-    #aboutUSfooterFix{
-        height: 100%
+@media (min-width: 2560px){
+    .faqContent{
+        height: 1080px;
     }
 }
+
+
 
 

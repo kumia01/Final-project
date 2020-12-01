@@ -179,3 +179,9 @@ body{
 
 }
 
+@media (min-width: 2560px){
+    .container{
+        height: 1080px;
+    }
+    
+}
