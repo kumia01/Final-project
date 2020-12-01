@@ -76,9 +76,10 @@ body{
 .info li{
     list-style: none;
     padding-top: 10px;
+    padding-bottom: 20px;
 }
 .info ul{
-    padding-top: 10px;
+    padding-top: 15px;
 }
 .info img{
     height: 80px;
@@ -178,3 +179,21 @@ body{
 
 }
 
+@media (min-width: 2560px){
+    .container{
+        height: 1080px;
+    }
+    
+}
+
+@media (min-height: 1365px){
+    .container{
+        height: 1300px;
+    }
+}
+
+@media (min-height: 1919px){
+    .container{
+        height: 1800px;
+    }
+}

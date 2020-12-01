@@ -5,7 +5,7 @@ b{
 }
 
 .front{
-    height: 48vw;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     background-color: #FCFDAF;
@@ -137,7 +137,7 @@ b{
     height: 25vw;
 }
 .img3{
-    height: 60vw;
+    height: 55vw;
     padding-top: 60px;
     padding-bottom: 60px;
 }
